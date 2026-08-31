@@ -8,7 +8,9 @@
   <meta name="robots" content="index, follow"/>
   <meta property="og:title" content="Lovely Store Pijamas"/>
   <meta property="og:description" content="La pijama que necesitas. Envíos a toda Colombia."/>
+  <meta property="og:image" content="logo.png"/>
   <meta property="og:type" content="website"/>
+  <link rel="icon" type="image/png" href="logo.png"/>
   <!-- ══ GOOGLE ANALYTICS 4 ══ -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-1F5GNYHMML"></script>
   <script>
@@ -90,8 +92,8 @@
       display: flex; align-items: center; gap: 10px; text-decoration: none;
     }
     .navbar-logo img {
-      width: 44px; height: 44px; border-radius: 50%;
-      object-fit: cover; border: 2px solid var(--pink);
+      width: 50px; height: 50px;
+      object-fit: contain;
     }
     .navbar-logo-text { display: flex; flex-direction: column; line-height: 1.1; }
     .navbar-logo-text span:first-child {
@@ -501,8 +503,8 @@
       text-decoration: none; margin-bottom: 12px;
     }
     .footer-logo img {
-      width: 40px; height: 40px; border-radius: 50%;
-      border: 2px solid var(--pink);
+      width: 50px; height: 50px;
+      object-fit: contain;
     }
     .footer-logo-text span:first-child {
       font-family: 'Playfair Display', serif;
@@ -622,7 +624,7 @@
 <!-- ===== NAVBAR ===== -->
 <header class="navbar" id="navbar">
   <a href="#inicio" class="navbar-logo">
-    <img src="Logo_Lovely_Store_Pijamas.jpeg" alt="Lovely Store Pijamas"/>
+    <img src="logo.png" alt="Lovely Store Pijamas"/>
     <div class="navbar-logo-text">
       <span>Lovely</span>
       <span>Store Pijamas</span>
@@ -1165,7 +1167,7 @@
     <div class="footer-top">
       <div class="footer-brand">
         <a href="#inicio" class="footer-logo">
-          <img src="Logo_Lovely_Store_Pijamas.jpeg" alt="Lovely Store Pijamas"/>
+          <img src="logo.png" alt="Lovely Store Pijamas"/>
           <div class="footer-logo-text">
             <span>Lovely</span>
             <span>Store Pijamas</span>
